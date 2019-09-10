@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+
+   
+    <title>Jquery Events</title>
+  </head>
+  <body>
+    <h1>Jquery Events</h1>
+    <p>Jquery was designed to respond to events like mouse enter ,mouse click and so on</p>
+    <p> You can actually assign an event to an element like p element</p>
+    <h2 class="myclick">click once i disappear</h2>
+    <h2 class="mydbclick">click twice i disappear</h2>
+    <h2 class="mymouseleave">mouse leave i disappear</h2>
+    <h2 class="mymouseenter">mouse enter i disappear</h2>
+    <h2 class="myhover">mouse hover alert box appear </h2>
+    <h2 class="myclick">click once i disappear</h2>
+    
+    <h1> Jquery on method</h1>
+    on()method attaches one or more handlers for the selected elements
+
+    <div  id="mydiv" style="text-align: center;padding:20px ; background-color: green;">
+        <h3>on()method in Jquery</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Numquam magnam voluptatum laboriosam quis aliquam voluptatem 
+             accusantium, repellat, nulla nihil ex vel ipsam ullam mollitia asperiores odit 
+            pariatur rerum corporis maxime!</p>
+    </div>
+    <div class="container-fluid">
+      <div class="row" style="text-align: center">
+        <h1 style="text-align: center"id="myH1">Jquery Hide and Show Effects</h1>
+        <!-- you can determine the speed of the hide and show effect -->
+        <!-- the syntax for effect in Jquery -->
+        <!-- $(selector(class/id)).hide(speed, callback) -->
+        <!-- $(selector(class/id)).show(speed, callback) -->
+        <!-- the speed argument determines the speed of hide and show and takes arguments 
+        slow,fast(both slow and fast are entered as strings),milliseconds -->
+        <!-- the callback is an optional argument(function) and its the fuction to 
+        be executed after the hide and show -->
+        <button id="hide" class="btn btn-success">hide</button>
+        <button id="show" class="btn btn-info">show</button>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur 
+          adipisicing elit. Consequatur sit laborum mollitia natus iusto, 
+          quo, delectus provident expedita consequuntur veritatis illo sed sequi inventore,
+           doloremque obcaecati est vitae voluptate nisi.</p>
+
+
+        <p class="lead"  id="show" style="display: none">Lorem ipsum dolor, sit amet consectetur 
+          adipisicing elit. Consequatur sit laborum mollitia natus iusto, 
+          quo, delectus provident expedita consequuntur veritatis illo sed sequi inventore,
+          doloremque obcaecati est vitae voluptate nisi.</p>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  </body>
+</html>
